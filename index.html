@@ -9,25 +9,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id = 'body'>
-    <H1>Etch-A-Sketch</H1>
+<div id = 'body'>
+    
+<H1>Etch-A-Sketch</H1>
+
+<div id = 'button'>
+    <input id = "reset" class="button" type = "button" value="Reset"/>
+    <button onclick="createGrid(10)" class = "button">10x10</button>
+    <button onclick="createGrid(20)" class = "button">20x20</button>
+    <button onclick="createGrid(30)" class = "button">30x30</button>
+    <input id = "black" class="button" type = "button" value="Black"/>
+    <input id = "red" class="button" type = "button" value="Red"/>
+    <input id = "blue" class="button" type = "button" value="Blue"/>
+</div>
 
 <div id = "container"></div>
 
-<input id = "reset" type = "button" value="Reset"/>
-
-<button onclick="createGrid(10)" class = "10x10">10x10</button>
-<button onclick="createGrid(20)" class = "20x20">20x20</button>
-<button onclick="createGrid(30)" class = "30x30">30x30</button>
-
-<input id = "black" type = "button" value="Black"/>
-<input id = "red" type = "button" value="Red"/>
-<input id = "blue" type = "button" value="Blue"/>
-
-
-
-
-    </div> 
+</div> 
 </body>
 <script src="script.js"></script>
 </html>
